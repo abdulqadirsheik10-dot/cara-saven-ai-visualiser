@@ -1,6 +1,6 @@
 # Cara Saven AI Wallpaper Visualiser
 
-A production AI-powered visualisation tool developed by **[LekkerAI](https://lekkerai.dev/)** for **Cara Saven Wall Design**. It helps customers preview a selected wallpaper design in a photo of their own room before moving into the enquiry and quote process.
+A production AI-powered visualisation tool developed by **[LekkerAI](https://lekkerai.dev/)** for **Cara Saven Wall Design**. LekkerAI is a startup founded by **Abdul-Qadir and Zach**. The Visualiser helps customers preview a selected wallpaper design in a photo of their own room before moving into the enquiry and quote process.
 
 **Try the live Visualiser:** [Open the Meander wallpaper on Cara Saven](https://carasaven.com/graphic-geometric/meander/) and select **“Visualise This Design”**.
 
@@ -21,6 +21,12 @@ The Visualiser was built to reduce that uncertainty by turning a customer's own 
 3. The application processes the room and design through an AI-assisted image-editing workflow.
 4. The result aims to preserve the original room while applying the selected wallpaper to the relevant wall surfaces.
 5. The customer can review the visualisation and continue into the enquiry / quote journey.
+
+## Product flow
+
+![Cara Saven Visualiser product flow](assets/visualiser-flow.jpg)
+
+*Sanitised overview of the live customer journey: Cara Saven product page → upload a wall photo → AI visualisation result → enquiry handoff.*
 
 ## Technical overview
 
@@ -99,6 +105,10 @@ The application has to work with user-provided images rather than controlled dem
 
 The product is not a standalone AI demo. It connects the visualisation experience to the client's existing product catalogue and enquiry process so that the generated result can support an actual customer decision.
 
+## About LekkerAI
+
+**[LekkerAI](https://lekkerai.dev/)** is a startup founded by **Abdul-Qadir and Zach**. The Cara Saven Visualiser was developed through LekkerAI as a real client product, from concept and product scoping through to implementation, deployment and ongoing iteration.
+
 ## My contribution
 
 I co-developed the product through **LekkerAI**, from concept through to a working production application. My involvement included:
@@ -127,7 +137,7 @@ The live experience linked above is the best way to evaluate the finished produc
 
 ---
 
-**Developed by:** [LekkerAI](https://lekkerai.dev/)  
+**Developed by:** [LekkerAI](https://lekkerai.dev/) — founded by Abdul-Qadir and Zach  
 **Project type:** Production client application  
 **Status:** Live  
 **Role:** Co-development, product and implementation
