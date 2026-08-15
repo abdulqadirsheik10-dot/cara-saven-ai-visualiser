@@ -78,8 +78,6 @@ I co-developed the product from concept through to a working production applicat
 - Testing and debugging
 - Deployment and ongoing product refinement with the client
 
-The project was built with modern AI-assisted development tooling as part of the workflow, alongside hands-on product, integration, testing and deployment work.
-
 ## Why the production repository is private
 
 This is a real client application, not an open-source demo. The production repository contains client-specific logic and infrastructure that should not be published publicly.
