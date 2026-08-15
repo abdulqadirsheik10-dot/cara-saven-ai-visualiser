@@ -27,16 +27,24 @@ The Visualiser was built to reduce that uncertainty by turning a customer's own 
 ### 1. Select a wallpaper
 Customers start from a real Cara Saven wallpaper product page and choose **“Visualise This Design”**.
 
+![Cara Saven wallpaper product page showing Visualise This Design](assets/Screenshot%202026-08-15%20at%2018.42.56.png)
+
 ### 2. Upload your wall
 The Visualiser asks the customer for a clear, well-lit photo of the wall they want to visualise.
 
+![Cara Saven Visualiser room upload step](assets/Screenshot%202026-08-15%20at%2018.43.39.png)
+
 ### 3. Generate the visualisation
-The selected wallpaper and room photo are confirmed, then the AI-assisted workflow creates a before/after visualisation while aiming to preserve the original room.
+The AI-assisted workflow applies the selected wallpaper to the uploaded room while aiming to preserve the original space. The result is presented as an interactive before/after comparison.
+
+![Cara Saven Visualiser before and after result](assets/Screenshot%202026-08-15%20at%2018.46.09.png)
 
 ### 4. Continue to enquiry
-The finished visualisation connects directly into Cara Saven’s enquiry and quote journey.
+The finished visualisation connects directly into Cara Saven’s enquiry and quote journey, including the selected design and wall measurements.
 
-*The screenshots used for this showcase demonstrate the Chirpin wallpaper as one example. The Visualiser is available from wallpaper product pages across Cara Saven’s catalogue.*
+![Cara Saven Visualiser enquiry form](assets/Screenshot%202026-08-15%20at%2018.46.16.png)
+
+*The screenshots above demonstrate the **Chirpin** wallpaper as one example. The live link near the top uses **Meander** simply as a convenient ready-to-try example. The Visualiser can be launched from wallpaper product pages across Cara Saven’s catalogue.*
 
 ## Technical overview
 
