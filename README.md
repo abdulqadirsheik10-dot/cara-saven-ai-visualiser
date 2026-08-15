@@ -6,7 +6,7 @@ A production AI-powered visualisation tool developed by **[LekkerAI](https://lek
 
 > **Meander is simply an example.** The Visualiser is integrated across Cara Saven’s wallpaper catalogue, so customers can open a wallpaper design on the Cara Saven website and launch **“Visualise This Design”** from that product page.
 
-> This repository is a **sanitized public showcase**. The production source code remains private to protect client-specific implementation details, infrastructure, credentials and proprietary logic.
+> This repository is a **sanitised public showcase**. The production source code remains private because this is a live client application containing client-specific implementation details, infrastructure and proprietary logic.
 
 ## The problem
 
@@ -33,7 +33,31 @@ The production application combines:
 - **AI image-editing workflow** for room visualisation
 - **Product catalogue integration**
 - **Customer enquiry workflow**
-- Request validation, fallback handling and basic usage controls
+- Request validation, fallback handling and usage controls
+
+## Selected implementation details
+
+The production code is private, but the following gives a more concrete view of the engineering work behind the live application without exposing proprietary implementation details.
+
+### Product-to-Visualiser handoff
+
+The Visualiser is designed to start from the customer's selected wallpaper rather than as a disconnected image tool. Product context is carried from the Cara Saven product journey into the Visualiser so the customer arrives with the relevant design already selected.
+
+### AI image-editing orchestration
+
+The backend accepts the customer's room image and selected wallpaper, validates the request and passes the images through a server-side AI image-editing workflow. The workflow is designed around **editing the customer's existing room**, rather than generating an unrelated replacement scene.
+
+### Reliability and fallback handling
+
+The visualisation flow includes request validation, payload/image-size controls, error handling, usage controls and fallback behaviour so that failures can be handled more predictably in a real customer-facing environment.
+
+### Serverless application layer
+
+Backend responsibilities are separated into serverless functions rather than placing sensitive application logic in the browser. These functions support the visualisation workflow, product-data handoff, image handling and enquiry process while keeping private credentials server-side.
+
+### Business workflow integration
+
+The generated visualisation is not the end of the journey. The application connects the result to the client's enquiry / quote process, allowing the AI experience to support an actual commercial customer flow rather than operating as a standalone demo.
 
 ## High-level architecture
 
@@ -99,7 +123,7 @@ For that reason, this showcase intentionally does **not** include:
 - Proprietary integration logic
 - Production source code
 
-The live experience linked above is the best way to evaluate the finished product in its intended customer journey, while this repository provides enough technical context to understand the scope of the work without exposing information that should remain private.
+The live experience linked above is the best way to evaluate the finished product in its intended customer journey. The technical sections in this showcase are intended to demonstrate the scope and engineering decisions behind the product without publishing material that should remain private.
 
 ---
 
