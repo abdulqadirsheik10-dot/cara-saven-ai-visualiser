@@ -1,8 +1,10 @@
 # Cara Saven AI Wallpaper Visualiser
 
-A production AI-powered visualisation tool developed for **Cara Saven Wall Design**. It helps customers preview a selected wallpaper design in a photo of their own room before moving into the enquiry and quote process.
+A production AI-powered visualisation tool developed by **[LekkerAI](https://lekkerai.dev/)** for **Cara Saven Wall Design**. It helps customers preview a selected wallpaper design in a photo of their own room before moving into the enquiry and quote process.
 
 **Try the live Visualiser:** [Open the Meander wallpaper on Cara Saven](https://carasaven.com/graphic-geometric/meander/) and select **“Visualise This Design”**.
+
+> **Meander is simply an example.** The Visualiser is integrated across Cara Saven’s wallpaper catalogue, so customers can open a wallpaper design on the Cara Saven website and launch **“Visualise This Design”** from that product page.
 
 > This repository is a **sanitized public showcase**. The production source code remains private to protect client-specific implementation details, infrastructure, credentials and proprietary logic.
 
@@ -75,7 +77,7 @@ The product is not a standalone AI demo. It connects the visualisation experienc
 
 ## My contribution
 
-I co-developed the product from concept through to a working production application. My involvement included:
+I co-developed the product through **LekkerAI**, from concept through to a working production application. My involvement included:
 
 - Product scoping and feature decisions
 - User-flow and experience design
@@ -101,6 +103,7 @@ The live experience linked above is the best way to evaluate the finished produc
 
 ---
 
+**Developed by:** [LekkerAI](https://lekkerai.dev/)  
 **Project type:** Production client application  
 **Status:** Live  
 **Role:** Co-development, product and implementation
