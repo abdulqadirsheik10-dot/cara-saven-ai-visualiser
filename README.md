@@ -2,7 +2,7 @@
 
 A production AI-powered visualisation tool developed for **Cara Saven Wall Design**. It helps customers preview a selected wallpaper design in a photo of their own room before moving into the enquiry and quote process.
 
-**Live product:** https://visualiser.lovable.app
+**Try the live Visualiser:** [Open the Meander wallpaper on Cara Saven](https://carasaven.com/graphic-geometric/meander/) and select **“Visualise This Design”**.
 
 > This repository is a **sanitized public showcase**. The production source code remains private to protect client-specific implementation details, infrastructure, credentials and proprietary logic.
 
@@ -14,8 +14,8 @@ The Visualiser was built to reduce that uncertainty by turning a customer's own 
 
 ## What the product does
 
-1. A customer selects a wallpaper design.
-2. They upload a photo of their room.
+1. A customer selects a wallpaper design on the Cara Saven website.
+2. They select **“Visualise This Design”** and upload a photo of their room.
 3. The application processes the room and design through an AI-assisted image-editing workflow.
 4. The result aims to preserve the original room while applying the selected wallpaper to the relevant wall surfaces.
 5. The customer can review the visualisation and continue into the enquiry / quote journey.
@@ -37,6 +37,12 @@ The production application combines:
 
 ```text
 Customer
+   |
+   v
+Cara Saven product page
+   |
+   v
+Visualise This Design
    |
    v
 React / TypeScript web application
@@ -91,7 +97,7 @@ For that reason, this showcase intentionally does **not** include:
 - Proprietary integration logic
 - Production source code
 
-The live application above is the best way to evaluate the finished product, while this repository provides enough technical context to understand the scope of the work without exposing information that should remain private.
+The live experience linked above is the best way to evaluate the finished product in its intended customer journey, while this repository provides enough technical context to understand the scope of the work without exposing information that should remain private.
 
 ---
 
